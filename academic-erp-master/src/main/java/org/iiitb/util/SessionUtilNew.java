@@ -1,16 +1,16 @@
-package com.vm.acaderp.util;
+package org.iiitb.util;
 
-import com.vm.acaderp.models.Department;
-import com.vm.acaderp.models.Employee;
-import com.vm.acaderp.models.SalaryDisbursement;
-import com.vm.acaderp.models.SalaryMaster;
+import org.iiitb.bean.Department;
+import org.iiitb.bean.Employee;
+import org.iiitb.bean.SalaryDisbursement;
+import org.iiitb.bean.SalaryMaster;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.Transaction;
 import java.util.logging.*;
 
-public class SessionUtil {
+public class SessionUtilNew {
 
     public static Session getSession() throws HibernateException {
         Configuration cfg = new Configuration();
